@@ -1,13 +1,21 @@
 {
-  "name": "uber_project",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenakarachinetskaya/pulse_1.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenakarachinetskaya/pulse_1/issues"
+  },
+  "homepage": "https://github.com/lenakarachinetskaya/pulse_1#readme",
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
