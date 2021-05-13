@@ -9,12 +9,14 @@
         }
     }
     &__official{
-        font-family: MuseoModerno-Medium;
+        font-family: "MuseoModerno-Medium", sans-serif;
+        font-weight: 500;        
         font-size: 14px;
         line-height: 23px;
         color: #FFFFFF;
         text-align: center;
         span{
+            font-family: "MuseoModerno-Medium";
             display: block;
             font-size: 19px;
             line-height: 29px;
@@ -22,7 +24,7 @@
     }
     &__phone{
         display: block;
-        font-family: MuseoModerno-Bold;
+        font-family: "MuseoModerno-ExtraBold";
         font-size: 18px;
         line-height: 18px;
         color: #FFFFFF;

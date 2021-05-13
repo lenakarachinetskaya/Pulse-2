@@ -1,11 +1,11 @@
-.button {
+.button{
     margin-top: 6px;
     width: 153px;
     height: 32px;
     background: $main-color;
     border-radius: 5px;
     border: none;
-    font-family: MuseoModerno-Medium;
+    font-family: MuseoModerno-Medium, sans-serif;
     font-size: 12px;
     line-height: 19px;
     text-align: center;
@@ -17,5 +17,17 @@
         height: 50px;
         font-size: 16px;
         line-height: 25px;
+    }
+    &_submit{
+        height: 55px;
+        width: 100%;
+        font-family: "MuseoModerno-Medium", sans-serif;
+        font-size: 16px;
+    }
+    &_mini {
+        font-size: 14px;
+        width: 135px;
+        height: 44px;
+        background: $main-color;
     }
 }
